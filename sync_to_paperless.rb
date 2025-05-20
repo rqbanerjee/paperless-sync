@@ -1,10 +1,10 @@
 require 'time'
 
 FILE_PATH='/Volumes/SharedFiles/'
-TIMESTAMP_PATH='/home/rqbanerjee/paperless/last_run_timestamp.txt'
+TIMESTAMP_PATH='/Users/rbanerjee/paperless/last_run_timestamp.txt'
 FILE_TYPES = [ "*.pdf","*.doc","*.docx","*.xls","*.xlsx","*.txt"]
 SCP_USER = 'paperless'
-SCP_HOST = '192.168.1.199'
+SCP_HOST = 'paperless-ngx.lan'
 SCP_REMOTE_PATH = '/opt/paperless/consume/'
 
 def get_all_files
